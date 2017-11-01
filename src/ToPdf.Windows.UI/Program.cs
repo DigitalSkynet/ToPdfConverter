@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Ninject;
+using System;
 using System.Windows.Forms;
 
-namespace ImagesToPdf
+namespace ToPdf.Windows.UI
 {
     static class Program
     {
@@ -13,7 +14,9 @@ namespace ImagesToPdf
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ConvertToPdf());
+            IKernel kernel = new StandardKernel(new InjectionModule());
+            var form = kernel.Get<ToPdfForm>();
+            Application.Run(form);
         }
     }
 }

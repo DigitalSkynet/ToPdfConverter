@@ -1,6 +1,9 @@
 The MIT License (MIT)
 
-Copyright (c) 2017 DigitalSkynet
+Copyright (c) 2017 DigitalSkynet LLC.
+
+The project uses iTextSharp library which is licensed throught the GNU license, to read the license details: http://www.gnu.org/licenses/agpl.html
+The project uess NInject library which is licensed throught the appache license, to read the license details: https://www.apache.org/licenses/LICENSE-2.0
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
 this software and associated documentation files (the "Software"), to deal in

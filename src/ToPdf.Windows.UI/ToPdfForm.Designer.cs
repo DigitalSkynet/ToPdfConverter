@@ -1,6 +1,6 @@
-﻿namespace ImagesToPdf
+﻿namespace ToPdf.Windows.UI
 {
-    partial class ConvertToPdf
+    partial class ToPdfForm
     {
         /// <summary>
         /// Required designer variable.
@@ -54,7 +54,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Converting";
             this.TopMost = true;
-            this.Load += new System.EventHandler(this.ConvertToPdf_Load);
+            this.Load += new System.EventHandler(this.ConvertToPdfLoad);
             this.ResumeLayout(false);
             this.PerformLayout();
 
